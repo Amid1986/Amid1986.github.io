@@ -60,10 +60,10 @@ table {
 
 .info {
   color: rgba(31, 31, 31, 0.8);
-  font: 400 14px Arial;
+  font-family: 400 14px Arial;
   margin-top: 24px;
   padding-bottom: 20px;
-  border-bottom:solid #eee;
+  border-bottom:1px solid #eee;
   text-align: left;
 }
 
@@ -143,8 +143,8 @@ a {
 
 
 
-.zagolovok {
-  border-top:solid #eee;
+.title {
+  border-top:1px solid #eee;
 }
 
 .profvc {
