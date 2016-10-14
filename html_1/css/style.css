@@ -63,7 +63,7 @@ table {
   font: 400 14px Arial;
   margin-top: 24px;
   padding-bottom: 20px;
-  border-bottom: #eee;
+  border-bottom:solid #eee;
   text-align: left;
 }
 
@@ -81,13 +81,13 @@ hr {
 
 
 .list {
+  
   color: #1f1f1f;
   font: 700 18px 'Arial';
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
-
-
+  
 }
 
 
@@ -118,6 +118,8 @@ p {
   font-family: Arial;
   font-style: italic;
   text-align: left;
+  padding-left: 32px;
+
 }
 
 ul {
@@ -130,3 +132,21 @@ li {
 }
 
 
+
+div {
+  text-align: left;
+}
+
+a {
+  padding-left: 32px;
+}
+
+
+
+.zagolovok {
+  border-top:solid #eee;
+}
+
+.profvc {
+  margin-bottom: 20px
+}
