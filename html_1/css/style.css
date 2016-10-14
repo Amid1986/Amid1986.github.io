@@ -4,7 +4,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -26,9 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -44,9 +42,91 @@ table {
 .head {
     background: #ccc;
     padding-top: 50px;
+    padding-bottom: 286px;
 }
 
 .head-box {
     width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
+
+.name {
+  color: #010101;
+  font: 700 36px Arial;
+  margin: 0 auto 30px;
+  
+}
+
+.info {
+  color: rgba(31, 31, 31, 0.8);
+  font: 400 14px Arial;
+  margin-top: 24px;
+  padding-bottom: 20px;
+  border-bottom: #eee;
+  text-align: left;
+}
+
+hr {
+  height: 1px;
+  border-left-color: black;
+  margin-top: 20px
+}
+
+
+
+
+
+
+
+
+.list {
+  color: #1f1f1f;
+  font: 700 18px 'Arial';
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+
+
+
+
+
+
+p {
+  text-align: left;
+  font: 'Arial' ;font-size: 14px;font: 400 14px / 18px 'arial';
+}
+
+.png {
+  margin-top: 7px;
+  margin-left: 16;
+  margin-right: 16px;
+}
+
+
+
+.tel {
+  padding-left: 32px;
+  text-align: left;
+}
+
+.href {
+  font-family: Arial;
+  font-style: italic;
+  text-align: left;
+}
+
+ul {
+  list-style-image: url(images/1.png); /* Путь к файлу с маркером */
+}
+
+li {
+  text-align: left;
+  font-family: Arial
+}
+
+
