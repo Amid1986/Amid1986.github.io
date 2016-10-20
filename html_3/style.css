@@ -146,7 +146,7 @@ border-right : 1px solid #FFFAF0;
 .main-menu a:hover {
     background: #f5f5f5;
     color: #000;
-    margin-left:  5px; /* Как сдвинуть в право только текст?*/
+    padding-left:  5px; /* Как сдвинуть в право только текст?*/
 
 }
 
