@@ -73,7 +73,7 @@ body {
 	box-shadow: 0 0 10px black;
   text-align: right;
   height: 35px;/* Высота меню */
-      
+  color: #60b5ed;    
 	}
 .cm-e-menu ul {
 	margin: 0; padding: 0;
@@ -95,6 +95,7 @@ body {
 }
 .cm-e-menu li:hover {
   background-color: #60b5ed;
+  color: #ffffff;
 	
 }
 .cm-e-menu ul li.topmenu {
@@ -260,4 +261,23 @@ h1:after {
 
 .Links {
   text-decoration:underline;
+}
+
+.topmenu1 {
+display: inline-table;
+	padding: .5em 1em;/* Отступ сверху и между пунктами топ меню */
+  border-right: 1px solid #4aa6d8;
+  color: #60b5ed;
+}
+
+
+
+.Rigtmenu {
+  color: white;
+}
+
+.topmenuRigt {
+  display: inline-table;
+	padding: .5em 1em;/* Отступ сверху и между пунктами топ меню */
+  color: white;
 }
